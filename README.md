@@ -19,4 +19,6 @@ What does compiled result look like ?
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/compiled.jpg)
 
 # How to contribute:
-- **Step 1**: Download JFlex:
+- **Step 1**: Download JFlex: ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/jflex_downlad.png)
+
+- **Step 2**: Read user's manual to install JFlex at this link (http://jflex.de/manual.pdf)
