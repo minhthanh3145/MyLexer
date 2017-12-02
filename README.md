@@ -10,7 +10,7 @@ with other classes to translate a text file into a stream of tokens. Warnings an
 
 # How to compile:
 - Step 1: Clone or download this repository.
-- Step 2: Open cmd, type in 'cd repAddress' with repAddress being the absolute path of the cloned repository.
-- Step 3: 'cd src' to move to the src folder
-- Step 4: `javac -cp com/java-cup-11b-runtime.jar com/java_cup/runtime/*.java com/Util/*.java com/mylexer/MyLexer.java' to compile
+- Step 2: Open cmd, type in `cd repAddress` with repAddress being the absolute path of the cloned repository.
+- Step 3: `cd src` to move to the src folder
+- Step 4: `javac -cp com/java-cup-11b-runtime.jar com/java_cup/runtime/*.java com/Util/*.java com/mylexer/MyLexer.java` to compile
 - Step 5: 
