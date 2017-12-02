@@ -22,3 +22,11 @@ What does compiled result look like ?
 - **Step 1**: Download JFlex: ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/jflex_downlad.png)
 
 - **Step 2**: Read user's manual to install JFlex at this link (http://jflex.de/manual.pdf)
+-- Step 2 . 1 : Config your `jflex-1.6.1\jflex-1.6.1\bin\jflex.bat` like this:
+--- JAVA_HOME is the directory to your jdk ( **NOT JRE** )
+--- The final line is the directory to your JFlex(...).jar
+
+-- Step 2 . 2 : Configure the path on your computer, in Run, type `System` and click on `System - control panel`->`Advanced system settings`->`Environment variables`. In System variable, find PATH and append the directory `yourDirectory\jflex-1.6.1\jflex-1.6.1\bin` to the end and click OK.
+
+- **Step 3**: Verify if Jflex is sucessfully installed.
+-- Step 3 . 1 : Goto cmd, type `jflex`, if a windows form pops up then you're done:
