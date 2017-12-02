@@ -21,9 +21,9 @@ What does compiled result look like ?
 - **Step 1**: Download JFlex: 
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/jflex_downlad.png)
 
-- **Step 2**: Read user's manual to install JFlex at this link (http://jflex.de/manual.pdf)
+- **Step 2**: Read user's manual to install JFlex at this link (http://jflex.de/manual.pdf) - beware that its installation guide is little bit off. 
 
-   **Step 2 . 1** : Config your `jflex-1.6.1\jflex-1.6.1\bin\jflex.bat` like this:
+   **Step 2 . 1** : Unzip the Jflex file you just downloaded, Config your `jflex-1.6.1\jflex-1.6.1\bin\jflex.bat` like this:
       ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/bin_flex_bat.png)
      JAVA_HOME is the directory to your jdk ( **NOT JRE** )
      The final line is the directory to your JFlex(...).jar
