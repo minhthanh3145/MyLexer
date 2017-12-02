@@ -1,6 +1,6 @@
 package com.java_cup.runtime;
 
-
+ 
 public class Symbol
 {
   public int sym;
