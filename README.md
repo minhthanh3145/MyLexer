@@ -17,3 +17,6 @@ with other classes to translate a text file into a stream of tokens. Warnings an
 
 What does compiled result look like ? 
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/compiled.jpg)
+
+# How to contribute:
+- **Step 1**: Download JFlex:
