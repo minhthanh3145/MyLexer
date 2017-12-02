@@ -1,13 +1,12 @@
 # What does this program do ? 
 - It takes in a lexical description, which then is processed by JFLex to generate a Scanner class. This Scanner class is combined
 with other classes to translate a text file into a stream of tokens. Warnings and erros are appropriately thrown.
----
+
 # Prerequesties:
 - Windows' **cmd**.
 - **Javac + jdk** installed.
 - JFLex and CUP ( **provided** in the repository ).
 
----
 # How to compile:
 - **Step 1**: Clone or download this repository.
 - **Step 2**: Open cmd, type in `cd repAddress` with repAddress being the absolute path of the cloned repository.
@@ -17,18 +16,19 @@ with other classes to translate a text file into a stream of tokens. Warnings an
 
 What does compiled result look like ? 
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/compiled.jpg)
----
+
 # How to contribute:
 - **Step 1**: Download JFlex: 
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/jflex_downlad.png)
 
 - **Step 2**: Read user's manual to install JFlex at this link (http://jflex.de/manual.pdf)
-   Step 2 . 1 : Config your `jflex-1.6.1\jflex-1.6.1\bin\jflex.bat` like this:
+
+   **Step 2 . 1** : Config your `jflex-1.6.1\jflex-1.6.1\bin\jflex.bat` like this:
       ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/bin_flex_bat.png)
      JAVA_HOME is the directory to your jdk ( **NOT JRE** )
      The final line is the directory to your JFlex(...).jar
 
-  Step 2 . 2 : Configure the path on your computer, in Run, type `System` and click on `System - control panel`->`Advanced system       settings`->`Environment variables`. In System variable, find PATH and append the directory `yourDirectory\jflex-1.6.1\jflex-1.6.1\bin` to the end and click OK. 
+   **Step 2 . 2** : Configure the path on your computer, in Run, type `System` and click on `System - control panel`->`Advanced system       settings`->`Environment variables`. In System variable, find PATH and append the directory `yourDirectory\jflex-1.6.1\jflex-1.6.1\bin` to the end and click OK. 
 ![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/path_config.png)
 
 - **Step 3**: Verify if Jflex is sucessfully installed. 
