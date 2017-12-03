@@ -11,6 +11,11 @@ with other classes to translate a text file into a stream of tokens. Warnings an
 
 ## The fast way: 
 - **Step 1**: Place the lexer_test in your default cd directory:
+![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/batch_placement.png)
+- **Step 2**: Change the highlighted directory with the directory to your `..MyLexer/src/`:
+![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/batch_config.png)
+- **Step 3**: Run the bat file with the command `call lexer_test.cmd fileName.extension`:
+![alt text](https://github.com/minhthanh3145/MyLexer/blob/master/img/batch_run.png)
 
 ## What is really going on:
 - **Step 1**: Clone or download this repository.
