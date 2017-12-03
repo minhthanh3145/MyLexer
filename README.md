@@ -8,6 +8,11 @@ with other classes to translate a text file into a stream of tokens. Warnings an
 - JFLex and CUP ( **provided** in the repository ).
 
 # How to compile:
+
+## The fast way: 
+- **Step 1**: Place the lexer_test in your default cd directory:
+
+## What is really going on:
 - **Step 1**: Clone or download this repository.
 - **Step 2**: Open cmd, type in `cd repAddress` with repAddress being the absolute path of the cloned repository.
 - **Step 3**: `cd src` to move to the src folder
