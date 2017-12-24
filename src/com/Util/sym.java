@@ -39,7 +39,7 @@ public abstract interface sym
   public static final int LSQBRACKET = 20;
   public static final int VOID = 4;
   public static final int RCURLY = 19;
-  public static final int INTLITERAL = 16;
+
   public static final int TIMES = 29;
   public static final int ELSE = 9;
   public static final int READ = 40;
@@ -62,4 +62,36 @@ public abstract interface sym
   public static final int CONST = 109;
   public static final int COMMENT = 110;
   public static final int AMBERAND = 245;
+  
+   public static final int HEXLITERAL = 246;
+   public static final int INTLITERAL = 16;
+   public static final int OCTLITERAL = 247;
+   
+    public static final int AUTO = 248;
+	public static final int DOUBLE = 249;
+	public static final int STRUCT = 250;
+	public static final int CONST = 251;
+	public static final int FLOAT = 252;  
+	public static final int SHORT = 253;
+	public static final int UNSIGNED = 254;
+	public static final int BREAK = 255;
+	public static final int LONG = 256;
+	public static final int SWITCH = 257;
+	public static final int CONTINUE = 258;
+	public static final int FOR = 259;
+	public static final int VOID = 260;
+	public static final int CASE = 261;
+	public static final int ENUM = 262;
+	public static final int REGISTER = 263;
+	public static final int TYPEDEF = 264;
+	public static final int DEFAULT = 265;
+	public static final int GOTO = 266;
+	public static final int SIZEOF = 267;
+	public static final int VOLATILE = 268;
+	public static final int CHAR = 269;
+	public static final int EXTERN = 270;
+	public static final int UNION = 271;
+	public static final int DO = 272;
+	public static final int STATIC = 273;
+	public static final int WHILE = 274;
 }
